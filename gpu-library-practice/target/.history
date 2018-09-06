@@ -1,0 +1,20 @@
+compile
+eclipse
+exit
+rn
+run
+exit
+compile
+run
+compile
+runMain helloworld.scala
+exit
+runMain helloworld.class
+run
+console
+exit
+compile
+run
+compile
+run
+exit
