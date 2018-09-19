@@ -1,4 +1,0 @@
-target/
-local.sbt
-secret/
-scala-logging.log
