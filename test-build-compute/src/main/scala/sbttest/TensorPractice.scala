@@ -1,8 +1,14 @@
 package sbttest
 
 import com.thoughtworks.compute.gpu._
+import com.thoughtworks.future._
+import com.thoughtworks.raii.asynchronous._
+import com.thoughtworks.raii.covariant.Resource
+import scala.concurrent.ExecutionContext
 
 object TensorPractice extends App {
+  implicit val ec = ExecutionContext.global
+  
   def recurseFib(cutoff: Int):Int = {
     def helper(last:Int, beforeLast:Int):Int = {
       if(last + beforeLast > cutoff) last else helper(last+beforeLast, last)
@@ -26,11 +32,16 @@ object TensorPractice extends App {
       }
     }
   }
-  var arr = Array.fill(100000)(util.Random.nextInt(1000000000))
-  bubbleSort(arr)
-  arr.take(5) foreach println
-  def arr1: Array[Array[Int]] = Array(arr)
+  //var arr = Array.fill(100000)(util.Random.nextInt(1000000000))
+  //bubbleSort(arr)
+  //arr.take(5) foreach println
+  //def arr1: Array[Array[Int]] = Array(arr)
   val seq:Seq[Body] = Seq(new Body(1,1,1,1,1,1,1))
-  val my2DArray: Tensor = Tensor(Seq(Seq((1,1,1,1,1,1,1), (1,1,1,1,1,1,1), (1,1,1,1,1,1,1)), Seq((1,1,1,1,1,1,1), (1,1,1,1,1,1,1), (1,1,1,1,1,1,1)))
-  
+  var acceleration = Tensor.random(Array(32, 32, 32)).doCache.acquire.blockingAwait
+  var Resource(x, y) = Tensor.random(Array(32, 32)).doCache.acquire.blockingAwait
+  val randomval = acceleration.value
+  val arr = randomval.flatArray
+  val scalaFut = arr.toScalaFuture
+  scalaFut foreach println
+ 
 }
