@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="test-build-compute_2.12"
+		revision="0.1.0-SNAPSHOT"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180915204345"/>
+	<dependencies>
+		<module organisation="org.lwjgl" name="lwjgl">
+			<revision name="3.2.0" status="release" pubdate="20180730121609" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.lwjgl.org" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="46">
+				<license name="BSD" url="https://www.lwjgl.org/license"/>
+				<metadata-artifact status="no" details="" size="2459" time="0" location="C:\Users\khardee\.ivy2\cache\org.lwjgl\lwjgl\ivy-3.2.0.xml" searched="true" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.2.0/lwjgl-3.2.0.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="memory_2.12" conf="compile, runtime" rev="3.1.6" rev-constraint-default="3.1.6" rev-constraint-dynamic="3.1.6" callerrev="0.4.3"/>
+				<caller organisation="org.lwjgl" name="lwjgl-opencl" conf="compile, runtime" rev="3.1.6" rev-constraint-default="3.1.6" rev-constraint-dynamic="3.1.6" callerrev="3.1.6"/>
+				<caller organisation="default" name="test-build-compute_2.12" conf="compile" rev="latest.release" rev-constraint-default="latest.release" rev-constraint-dynamic="latest.release" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lwjgl" type="jar" ext="jar" status="no" details="" size="311962" time="0" location="C:\Users\khardee\.ivy2\cache\org.lwjgl\lwjgl\jars\lwjgl-3.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.2.0/lwjgl-3.2.0.jar"/>
+					</artifact>
+					<artifact name="lwjgl" type="jar" ext="jar" extra-classifier="natives-windows" status="no" details="" size="254659" time="0" location="C:\Users\khardee\.ivy2\cache\org.lwjgl\lwjgl\jars\lwjgl-3.2.0-natives-windows.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.2.0/lwjgl-3.2.0-natives-windows.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.1.6" status="release" pubdate="20180204113355" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://www.lwjgl.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="BSD" url="https://www.lwjgl.org/license"/>
+				<metadata-artifact status="no" details="" size="2459" time="0" location="C:\Users\khardee\.ivy2\cache\org.lwjgl\lwjgl\ivy-3.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.1.6/lwjgl-3.1.6.pom"/>
+				<evicted-by rev="3.2.0"/>
+				<caller organisation="com.thoughtworks.compute" name="memory_2.12" conf="compile, runtime" rev="3.1.6" rev-constraint-default="3.1.6" rev-constraint-dynamic="3.1.6" callerrev="0.4.3"/>
+				<caller organisation="org.lwjgl" name="lwjgl-opencl" conf="compile, runtime" rev="3.1.6" rev-constraint-default="3.1.6" rev-constraint-dynamic="3.1.6" callerrev="3.1.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.compute" name="gpu_2.12">
+			<revision name="0.4.3" status="release" pubdate="20180525003329" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/Compute.scala" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="45">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3247" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\gpu_2.12\ivy-0.4.3.xml" searched="true" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/compute/gpu_2.12/0.4.3/gpu_2.12-0.4.3.pom"/>
+				<caller organisation="default" name="test-build-compute_2.12" conf="compile" rev="latest.release" rev-constraint-default="latest.release" rev-constraint-dynamic="latest.release" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="gpu_2.12" type="jar" ext="jar" status="no" details="" size="8281" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\gpu_2.12\jars\gpu_2.12-0.4.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/compute/gpu_2.12/0.4.3/gpu_2.12-0.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.6" status="release" pubdate="20180427033633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2670" time="0" location="C:\Users\khardee\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.pom"/>
+				<caller organisation="com.dongxiguo" name="fastring_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.3.1"/>
+				<caller organisation="com.thoughtworks.sde" name="core_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.3.1"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.8.0"/>
+				<caller organisation="com.thoughtworks.sde" name="comprehension-monad_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3607442" time="0" location="C:\Users\khardee\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.compute" name="cpu_2.12">
+			<revision name="0.4.3" status="release" pubdate="20180525003323" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/Compute.scala" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3247" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\cpu_2.12\ivy-0.4.3.xml" searched="true" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/compute/cpu_2.12/0.4.3/cpu_2.12-0.4.3.pom"/>
+				<caller organisation="default" name="test-build-compute_2.12" conf="compile" rev="latest.release" rev-constraint-default="latest.release" rev-constraint-dynamic="latest.release" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cpu_2.12" type="jar" ext="jar" status="no" details="" size="8281" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\cpu_2.12\jars\cpu_2.12-0.4.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/compute/cpu_2.12/0.4.3/cpu_2.12-0.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.compute" name="tensors_2.12">
+			<revision name="0.4.3" status="release" pubdate="20180525003335" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/Compute.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="4000" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\tensors_2.12\ivy-0.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/compute/tensors_2.12/0.4.3/tensors_2.12-0.4.3.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="gpu_2.12" conf="default, compile, runtime, master" rev="0.4.3" rev-constraint-default="0.4.3" rev-constraint-dynamic="0.4.3" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.compute" name="cpu_2.12" conf="default, compile, runtime, master" rev="0.4.3" rev-constraint-default="0.4.3" rev-constraint-dynamic="0.4.3" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="tensors_2.12" type="jar" ext="jar" status="no" details="" size="220611" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\tensors_2.12\jars\tensors_2.12-0.4.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/compute/tensors_2.12/0.4.3/tensors_2.12-0.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="23.6-jre" status="release" pubdate="20171220190340" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7465" time="0" location="C:\Users\khardee\.ivy2\cache\com.google.guava\guava\ivy-23.6-jre.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/23.6-jre/guava-23.6-jre.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="tensors_2.12" conf="compile, runtime" rev="23.6-jre" rev-constraint-default="23.6-jre" rev-constraint-dynamic="23.6-jre" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="guava" type="bundle" ext="jar" status="no" details="" size="2708016" time="0" location="C:\Users\khardee\.ivy2\cache\com.google.guava\guava\bundles\guava-23.6-jre.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.mojo" name="animal-sniffer-annotations">
+			<revision name="1.14" status="release" pubdate="20150225105330" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4605" time="0" location="C:\Users\khardee\.ivy2\cache\org.codehaus.mojo\animal-sniffer-annotations\ivy-1.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="23.6-jre"/>
+				<artifacts>
+					<artifact name="animal-sniffer-annotations" type="jar" ext="jar" status="no" details="" size="3482" time="0" location="C:\Users\khardee\.ivy2\cache\org.codehaus.mojo\animal-sniffer-annotations\jars\animal-sniffer-annotations-1.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.j2objc" name="j2objc-annotations">
+			<revision name="1.1" status="release" pubdate="20170118170659" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/google/j2objc/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3207" time="0" location="C:\Users\khardee\.ivy2\cache\com.google.j2objc\j2objc-annotations\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="23.6-jre"/>
+				<artifacts>
+					<artifact name="j2objc-annotations" type="jar" ext="jar" status="no" details="" size="8782" time="0" location="C:\Users\khardee\.ivy2\cache\com.google.j2objc\j2objc-annotations\jars\j2objc-annotations-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.errorprone" name="error_prone_annotations">
+			<revision name="2.1.3" status="release" pubdate="20171128160614" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4142" time="0" location="C:\Users\khardee\.ivy2\cache\com.google.errorprone\error_prone_annotations\ivy-2.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="23.6-jre"/>
+				<artifacts>
+					<artifact name="error_prone_annotations" type="jar" ext="jar" status="no" details="" size="13704" time="0" location="C:\Users\khardee\.ivy2\cache\com.google.errorprone\error_prone_annotations\jars\error_prone_annotations-2.1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.checkerframework" name="checker-compat-qual">
+			<revision name="2.0.0" status="release" pubdate="20160502213856" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://checkerframework.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="GNU General Public License, version 2 (GPL2), with the classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<license name="The MIT License" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2863" time="0" location="C:\Users\khardee\.ivy2\cache\org.checkerframework\checker-compat-qual\ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="23.6-jre"/>
+				<artifacts>
+					<artifact name="checker-compat-qual" type="jar" ext="jar" status="no" details="" size="31547" time="0" location="C:\Users\khardee\.ivy2\cache\org.checkerframework\checker-compat-qual\jars\checker-compat-qual-2.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="1.3.9" status="release" pubdate="20090824172822" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2549" time="0" location="C:\Users\khardee\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-1.3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="1.3.9" rev-constraint-default="1.3.9" rev-constraint-dynamic="1.3.9" callerrev="23.6-jre"/>
+				<artifacts>
+					<artifact name="jsr305" type="jar" ext="jar" status="no" details="" size="33015" time="0" location="C:\Users\khardee\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-1.3.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.compute" name="opencl_2.12">
+			<revision name="0.4.3" status="release" pubdate="20180525003333" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/Compute.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="4848" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\opencl_2.12\ivy-0.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/compute/opencl_2.12/0.4.3/opencl_2.12-0.4.3.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="tensors_2.12" conf="compile, runtime" rev="0.4.3" rev-constraint-default="0.4.3" rev-constraint-dynamic="0.4.3" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="opencl_2.12" type="jar" ext="jar" status="no" details="" size="191551" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\opencl_2.12\jars\opencl_2.12-0.4.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/compute/opencl_2.12/0.4.3/opencl_2.12-0.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.each" name="each_2.12">
+			<revision name="3.3.1" status="release" pubdate="20170412020130" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/each" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3476" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.each\each_2.12\ivy-3.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/each/each_2.12/3.3.1/each_2.12-3.3.1.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="each_2.12" type="jar" ext="jar" status="no" details="" size="48140" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.each\each_2.12\jars\each_2.12-3.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/each/each_2.12/3.3.1/each_2.12-3.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.sde" name="comprehension-monad_2.12">
+			<revision name="3.3.1" status="release" pubdate="20170412020058" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/each" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3473" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.sde\comprehension-monad_2.12\ivy-3.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/sde/comprehension-monad_2.12/3.3.1/comprehension-monad_2.12-3.3.1.pom"/>
+				<caller organisation="com.thoughtworks.each" name="each_2.12" conf="compile, runtime" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="comprehension-monad_2.12" type="jar" ext="jar" status="no" details="" size="15398" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.sde\comprehension-monad_2.12\jars\comprehension-monad_2.12-3.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/sde/comprehension-monad_2.12/3.3.1/comprehension-monad_2.12-3.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.sde" name="core_2.12">
+			<revision name="3.3.1" status="release" pubdate="20170412020054" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/each" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3726" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.sde\core_2.12\ivy-3.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/sde/core_2.12/3.3.1/core_2.12-3.3.1.pom"/>
+				<caller organisation="com.thoughtworks.each" name="each_2.12" conf="compile, runtime" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="core_2.12" type="jar" ext="jar" status="no" details="" size="156816" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.sde\core_2.12\jars\core_2.12-3.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/sde/core_2.12/3.3.1/core_2.12-3.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-effect_2.12">
+			<revision name="7.2.7" status="release" pubdate="20161028191605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2824" time="0" location="C:\Users\khardee\.ivy2\cache\org.scalaz\scalaz-effect_2.12\ivy-7.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.7/scalaz-effect_2.12-7.2.7.pom"/>
+				<caller organisation="com.thoughtworks.sde" name="core_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="scalaz-effect_2.12" type="bundle" ext="jar" status="no" details="" size="296498" time="0" location="C:\Users\khardee\.ivy2\cache\org.scalaz\scalaz-effect_2.12\bundles\scalaz-effect_2.12-7.2.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.7/scalaz-effect_2.12-7.2.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.12">
+			<revision name="3.8.0" status="release" pubdate="20180221051150" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/scala-logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3393" time="0" location="C:\Users\khardee\.ivy2\cache\com.typesafe.scala-logging\scala-logging_2.12\ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.8.0/scala-logging_2.12-3.8.0.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="scala-logging_2.12" type="bundle" ext="jar" status="no" details="" size="53142" time="0" location="C:\Users\khardee\.ivy2\cache\com.typesafe.scala-logging\scala-logging_2.12\bundles\scala-logging_2.12-3.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.8.0/scala-logging_2.12-3.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316113632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5431" time="0" location="C:\Users\khardee\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41203" time="0" location="C:\Users\khardee\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.feature" name="mixins-implicitssingleton_2.12">
+			<revision name="2.3.0-M8" status="release" pubdate="20180213052557" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/feature.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3083" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\mixins-implicitssingleton_2.12\ivy-2.3.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/feature/mixins-implicitssingleton_2.12/2.3.0-M8/mixins-implicitssingleton_2.12-2.3.0-M8.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="2.3.0-M8" rev-constraint-default="2.3.0-M8" rev-constraint-dynamic="2.3.0-M8" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="mixins-implicitssingleton_2.12" type="jar" ext="jar" status="no" details="" size="2260" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\mixins-implicitssingleton_2.12\jars\mixins-implicitssingleton_2.12-2.3.0-M8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/feature/mixins-implicitssingleton_2.12/2.3.0-M8/mixins-implicitssingleton_2.12-2.3.0-M8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.feature" name="partialapply_2.12">
+			<revision name="2.3.0-M8" status="release" pubdate="20180213052606" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/feature.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3144" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\partialapply_2.12\ivy-2.3.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/feature/partialapply_2.12/2.3.0-M8/partialapply_2.12-2.3.0-M8.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="2.3.0-M8" rev-constraint-default="2.3.0-M8" rev-constraint-dynamic="2.3.0-M8" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="partialapply_2.12" type="jar" ext="jar" status="no" details="" size="17735" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\partialapply_2.12\jars\partialapply_2.12-2.3.0-M8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/feature/partialapply_2.12/2.3.0-M8/partialapply_2.12-2.3.0-M8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.raii" name="asynchronouspool_2.12">
+			<revision name="3.0.0-M11" status="release" pubdate="20180418102016" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/RAII.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3273" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\asynchronouspool_2.12\ivy-3.0.0-M11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/raii/asynchronouspool_2.12/3.0.0-M11/asynchronouspool_2.12-3.0.0-M11.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="3.0.0-M11" rev-constraint-default="3.0.0-M11" rev-constraint-dynamic="3.0.0-M11" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="asynchronouspool_2.12" type="jar" ext="jar" status="no" details="" size="30353" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\asynchronouspool_2.12\jars\asynchronouspool_2.12-3.0.0-M11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/raii/asynchronouspool_2.12/3.0.0-M11/asynchronouspool_2.12-3.0.0-M11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.raii" name="asynchronous_2.12">
+			<revision name="3.0.0-M11" status="release" pubdate="20180418101559" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/RAII.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3584" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\asynchronous_2.12\ivy-3.0.0-M11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/raii/asynchronous_2.12/3.0.0-M11/asynchronous_2.12-3.0.0-M11.pom"/>
+				<caller organisation="com.thoughtworks.raii" name="asynchronouspool_2.12" conf="compile, runtime" rev="3.0.0-M11" rev-constraint-default="3.0.0-M11" rev-constraint-dynamic="3.0.0-M11" callerrev="3.0.0-M11"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="3.0.0-M11" rev-constraint-default="3.0.0-M11" rev-constraint-dynamic="3.0.0-M11" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="asynchronous_2.12" type="jar" ext="jar" status="no" details="" size="23013" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\asynchronous_2.12\jars\asynchronous_2.12-3.0.0-M11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/raii/asynchronous_2.12/3.0.0-M11/asynchronous_2.12-3.0.0-M11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.raii" name="shared_2.12">
+			<revision name="3.0.0-M11" status="release" pubdate="20180418102117" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/RAII.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3400" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\shared_2.12\ivy-3.0.0-M11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/raii/shared_2.12/3.0.0-M11/shared_2.12-3.0.0-M11.pom"/>
+				<caller organisation="com.thoughtworks.raii" name="asynchronous_2.12" conf="compile, runtime" rev="3.0.0-M11" rev-constraint-default="3.0.0-M11" rev-constraint-dynamic="3.0.0-M11" callerrev="3.0.0-M11"/>
+				<artifacts>
+					<artifact name="shared_2.12" type="jar" ext="jar" status="no" details="" size="17474" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\shared_2.12\jars\shared_2.12-3.0.0-M11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/raii/shared_2.12/3.0.0-M11/shared_2.12-3.0.0-M11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.future" name="future_2.12">
+			<revision name="2.0.0-M2" status="release" pubdate="20171124044753" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/future.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3413" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.future\future_2.12\ivy-2.0.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/future/future_2.12/2.0.0-M2/future_2.12-2.0.0-M2.pom"/>
+				<caller organisation="com.thoughtworks.raii" name="asynchronous_2.12" conf="compile, runtime" rev="2.0.0-M2" rev-constraint-default="2.0.0-M2" rev-constraint-dynamic="2.0.0-M2" callerrev="3.0.0-M11"/>
+				<artifacts>
+					<artifact name="future_2.12" type="jar" ext="jar" status="no" details="" size="30773" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.future\future_2.12\jars\future_2.12-2.0.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/future/future_2.12/2.0.0-M2/future_2.12-2.0.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.continuation" name="continuation_2.12">
+			<revision name="2.0.0-M2" status="release" pubdate="20171124044740" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/future.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3113" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.continuation\continuation_2.12\ivy-2.0.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/continuation/continuation_2.12/2.0.0-M2/continuation_2.12-2.0.0-M2.pom"/>
+				<caller organisation="com.thoughtworks.raii" name="shared_2.12" conf="compile, runtime" rev="2.0.0-M2" rev-constraint-default="2.0.0-M2" rev-constraint-dynamic="2.0.0-M2" callerrev="3.0.0-M11"/>
+				<caller organisation="com.thoughtworks.future" name="future_2.12" conf="compile, runtime" rev="2.0.0-M2" rev-constraint-default="2.0.0-M2" rev-constraint-dynamic="2.0.0-M2" callerrev="2.0.0-M2"/>
+				<artifacts>
+					<artifact name="continuation_2.12" type="jar" ext="jar" status="no" details="" size="92451" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.continuation\continuation_2.12\jars\continuation_2.12-2.0.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/continuation/continuation_2.12/2.0.0-M2/continuation_2.12-2.0.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.tryt" name="covariant_2.12">
+			<revision name="2.0.3" status="release" pubdate="20170720131414" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/tryt.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3221" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.tryt\covariant_2.12\ivy-2.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/tryt/covariant_2.12/2.0.3/covariant_2.12-2.0.3.pom"/>
+				<caller organisation="com.thoughtworks.raii" name="asynchronous_2.12" conf="compile, runtime" rev="2.0.3" rev-constraint-default="2.0.3" rev-constraint-dynamic="2.0.3" callerrev="3.0.0-M11"/>
+				<caller organisation="com.thoughtworks.future" name="future_2.12" conf="compile, runtime" rev="2.0.3" rev-constraint-default="2.0.3" rev-constraint-dynamic="2.0.3" callerrev="2.0.0-M2"/>
+				<artifacts>
+					<artifact name="covariant_2.12" type="jar" ext="jar" status="no" details="" size="48919" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.tryt\covariant_2.12\jars\covariant_2.12-2.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/tryt/covariant_2.12/2.0.3/covariant_2.12-2.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.raii" name="covariant_2.12">
+			<revision name="3.0.0-M11" status="release" pubdate="20180418101923" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/RAII.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3355" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\covariant_2.12\ivy-3.0.0-M11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/raii/covariant_2.12/3.0.0-M11/covariant_2.12-3.0.0-M11.pom"/>
+				<caller organisation="com.thoughtworks.raii" name="shared_2.12" conf="compile, runtime" rev="3.0.0-M11" rev-constraint-default="3.0.0-M11" rev-constraint-dynamic="3.0.0-M11" callerrev="3.0.0-M11"/>
+				<caller organisation="com.thoughtworks.raii" name="asynchronous_2.12" conf="compile, runtime" rev="3.0.0-M11" rev-constraint-default="3.0.0-M11" rev-constraint-dynamic="3.0.0-M11" callerrev="3.0.0-M11"/>
+				<artifacts>
+					<artifact name="covariant_2.12" type="jar" ext="jar" status="no" details="" size="88805" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\covariant_2.12\jars\covariant_2.12-3.0.0-M11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/raii/covariant_2.12/3.0.0-M11/covariant_2.12-3.0.0-M11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.12">
+			<revision name="7.2.14" status="release" pubdate="20170625022422" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2673" time="0" location="C:\Users\khardee\.ivy2\cache\org.scalaz\scalaz-core_2.12\ivy-7.2.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.14/scalaz-core_2.12-7.2.14.pom"/>
+				<caller organisation="com.thoughtworks.continuation" name="continuation_2.12" conf="compile, runtime" rev="7.2.14" rev-constraint-default="7.2.14" rev-constraint-dynamic="7.2.14" callerrev="2.0.0-M2"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="7.2.7"/>
+				<caller organisation="com.thoughtworks.sde" name="core_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="3.3.1"/>
+				<caller organisation="com.thoughtworks.tryt" name="covariant_2.12" conf="compile, runtime" rev="7.2.13" rev-constraint-default="7.2.13" rev-constraint-dynamic="7.2.13" callerrev="2.0.3"/>
+				<caller organisation="com.thoughtworks.future" name="future_2.12" conf="compile, runtime" rev="7.2.14" rev-constraint-default="7.2.14" rev-constraint-dynamic="7.2.14" callerrev="2.0.0-M2"/>
+				<caller organisation="com.thoughtworks.raii" name="covariant_2.12" conf="compile, runtime" rev="7.2.14" rev-constraint-default="7.2.14" rev-constraint-dynamic="7.2.14" callerrev="3.0.0-M11"/>
+				<caller organisation="com.thoughtworks.sde" name="comprehension-monad_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.12" type="bundle" ext="jar" status="no" details="" size="7811640" time="0" location="C:\Users\khardee\.ivy2\cache\org.scalaz\scalaz-core_2.12\bundles\scalaz-core_2.12-7.2.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.14/scalaz-core_2.12-7.2.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="7.2.7" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="7.2.14"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="7.2.7"/>
+				<caller organisation="com.thoughtworks.sde" name="core_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="3.3.1"/>
+				<caller organisation="com.thoughtworks.sde" name="comprehension-monad_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="3.3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="7.2.13" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="7.2.14"/>
+				<caller organisation="com.thoughtworks.tryt" name="covariant_2.12" conf="compile, runtime" rev="7.2.13" rev-constraint-default="7.2.13" rev-constraint-dynamic="7.2.13" callerrev="2.0.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.lwjgl" name="lwjgl-opencl">
+			<revision name="3.1.6" status="release" pubdate="20180204114358" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.lwjgl.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="BSD" url="https://www.lwjgl.org/license"/>
+				<metadata-artifact status="no" details="" size="2789" time="0" location="C:\Users\khardee\.ivy2\cache\org.lwjgl\lwjgl-opencl\ivy-3.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/lwjgl/lwjgl-opencl/3.1.6/lwjgl-opencl-3.1.6.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="3.1.6" rev-constraint-default="3.1.6" rev-constraint-dynamic="3.1.6" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="lwjgl-opencl" type="jar" ext="jar" status="no" details="" size="171580" time="0" location="C:\Users\khardee\.ivy2\cache\org.lwjgl\lwjgl-opencl\jars\lwjgl-opencl-3.1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/lwjgl/lwjgl-opencl/3.1.6/lwjgl-opencl-3.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.compute" name="memory_2.12">
+			<revision name="0.4.3" status="release" pubdate="20180525003338" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/Compute.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2818" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\memory_2.12\ivy-0.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/compute/memory_2.12/0.4.3/memory_2.12-0.4.3.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="0.4.3" rev-constraint-default="0.4.3" rev-constraint-dynamic="0.4.3" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="memory_2.12" type="jar" ext="jar" status="no" details="" size="27389" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\memory_2.12\jars\memory_2.12-0.4.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/compute/memory_2.12/0.4.3/memory_2.12-0.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.compute" name="openclkernelbuilder_2.12">
+			<revision name="0.4.3" status="release" pubdate="20180525003313" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/Compute.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3284" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\openclkernelbuilder_2.12\ivy-0.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/compute/openclkernelbuilder_2.12/0.4.3/openclkernelbuilder_2.12-0.4.3.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="tensors_2.12" conf="compile, runtime" rev="0.4.3" rev-constraint-default="0.4.3" rev-constraint-dynamic="0.4.3" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="openclkernelbuilder_2.12" type="jar" ext="jar" status="no" details="" size="142647" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\openclkernelbuilder_2.12\jars\openclkernelbuilder_2.12-0.4.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/compute/openclkernelbuilder_2.12/0.4.3/openclkernelbuilder_2.12-0.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.dongxiguo" name="fastring_2.12">
+			<revision name="0.3.1" status="release" pubdate="20170123035515" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/Atry/fastring" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2933" time="0" location="C:\Users\khardee\.ivy2\cache\com.dongxiguo\fastring_2.12\ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/dongxiguo/fastring_2.12/0.3.1/fastring_2.12-0.3.1.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="openclkernelbuilder_2.12" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="fastring_2.12" type="jar" ext="jar" status="no" details="" size="96397" time="0" location="C:\Users\khardee\.ivy2\cache\com.dongxiguo\fastring_2.12\jars\fastring_2.12-0.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/dongxiguo/fastring_2.12/0.3.1/fastring_2.12-0.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.compute" name="trees_2.12">
+			<revision name="0.4.3" status="release" pubdate="20180525003317" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/Compute.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3115" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\trees_2.12\ivy-0.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/compute/trees_2.12/0.4.3/trees_2.12-0.4.3.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="tensors_2.12" conf="compile, runtime" rev="0.4.3" rev-constraint-default="0.4.3" rev-constraint-dynamic="0.4.3" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="trees_2.12" type="jar" ext="jar" status="no" details="" size="165875" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\trees_2.12\jars\trees_2.12-0.4.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/compute/trees_2.12/0.4.3/trees_2.12-0.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.compute" name="expressions_2.12">
+			<revision name="0.4.3" status="release" pubdate="20180525003330" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/Compute.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3469" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\expressions_2.12\ivy-0.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/compute/expressions_2.12/0.4.3/expressions_2.12-0.4.3.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="openclkernelbuilder_2.12" conf="compile, runtime" rev="0.4.3" rev-constraint-default="0.4.3" rev-constraint-dynamic="0.4.3" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.compute" name="trees_2.12" conf="compile, runtime" rev="0.4.3" rev-constraint-default="0.4.3" rev-constraint-dynamic="0.4.3" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="expressions_2.12" type="jar" ext="jar" status="no" details="" size="18687" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\expressions_2.12\jars\expressions_2.12-0.4.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/compute/expressions_2.12/0.4.3/expressions_2.12-0.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="sourcecode_2.12">
+			<revision name="0.1.4" status="release" pubdate="20170708184037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/sourcecode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="MIT" url="http://www.opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="2997" time="0" location="C:\Users\khardee\.ivy2\cache\com.lihaoyi\sourcecode_2.12\ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/sourcecode_2.12-0.1.4.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="expressions_2.12" conf="compile, runtime" rev="0.1.4" rev-constraint-default="0.1.4" rev-constraint-dynamic="0.1.4" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="sourcecode_2.12" type="bundle" ext="jar" status="no" details="" size="110958" time="0" location="C:\Users\khardee\.ivy2\cache\com.lihaoyi\sourcecode_2.12\bundles\sourcecode_2.12-0.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/sourcecode_2.12-0.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.feature" name="factory_2.12">
+			<revision name="2.3.0-M8" status="release" pubdate="20180213052452" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/feature.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="4010" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\factory_2.12\ivy-2.3.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/feature/factory_2.12/2.3.0-M8/factory_2.12-2.3.0-M8.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="expressions_2.12" conf="compile, runtime" rev="2.3.0-M8" rev-constraint-default="2.3.0-M8" rev-constraint-dynamic="2.3.0-M8" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="2.3.0-M8" rev-constraint-default="2.3.0-M8" rev-constraint-dynamic="2.3.0-M8" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.feature" name="mixins-implicitssingleton_2.12" conf="compile, runtime" rev="2.3.0-M8" rev-constraint-default="2.3.0-M8" rev-constraint-dynamic="2.3.0-M8" callerrev="2.3.0-M8"/>
+				<artifacts>
+					<artifact name="factory_2.12" type="jar" ext="jar" status="no" details="" size="36983" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\factory_2.12\jars\factory_2.12-2.3.0-M8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/feature/factory_2.12/2.3.0-M8/factory_2.12-2.3.0-M8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.ghik" name="silencer-lib_2.12">
+			<revision name="0.6" status="release" pubdate="20171214173516" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ghik/silencer" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2765" time="0" location="C:\Users\khardee\.ivy2\cache\com.github.ghik\silencer-lib_2.12\ivy-0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/ghik/silencer-lib_2.12/0.6/silencer-lib_2.12-0.6.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="tensors_2.12" conf="compile, runtime" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.compute" name="trees_2.12" conf="compile, runtime" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.feature" name="factory_2.12" conf="compile, runtime" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="2.3.0-M8"/>
+				<artifacts>
+					<artifact name="silencer-lib_2.12" type="jar" ext="jar" status="no" details="" size="1358" time="0" location="C:\Users\khardee\.ivy2\cache\com.github.ghik\silencer-lib_2.12\jars\silencer-lib_2.12-0.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/ghik/silencer-lib_2.12/0.6/silencer-lib_2.12-0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.12">
+			<revision name="2.3.3" status="release" pubdate="20171231085153" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3267" time="0" location="C:\Users\khardee\.ivy2\cache\com.chuusai\shapeless_2.12\ivy-2.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="shapeless_2.12" type="bundle" ext="jar" status="no" details="" size="3243337" time="0" location="C:\Users\khardee\.ivy2\cache\com.chuusai\shapeless_2.12\bundles\shapeless_2.12-2.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.feature" name="the_2.12">
+			<revision name="2.3.0-M8" status="release" pubdate="20180213052517" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/feature.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2950" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\the_2.12\ivy-2.3.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/feature/the_2.12/2.3.0-M8/the_2.12-2.3.0-M8.pom"/>
+				<caller organisation="com.thoughtworks.feature" name="factory_2.12" conf="compile, runtime" rev="2.3.0-M8" rev-constraint-default="2.3.0-M8" rev-constraint-dynamic="2.3.0-M8" callerrev="2.3.0-M8"/>
+				<artifacts>
+					<artifact name="the_2.12" type="jar" ext="jar" status="no" details="" size="3016" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\the_2.12\jars\the_2.12-2.3.0-M8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/feature/the_2.12/2.3.0-M8/the_2.12-2.3.0-M8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.feature" name="untyper_2.12">
+			<revision name="2.3.0-M8" status="release" pubdate="20180213052603" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/feature.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3032" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\untyper_2.12\ivy-2.3.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/feature/untyper_2.12/2.3.0-M8/untyper_2.12-2.3.0-M8.pom"/>
+				<caller organisation="com.thoughtworks.feature" name="factory_2.12" conf="compile, runtime" rev="2.3.0-M8" rev-constraint-default="2.3.0-M8" rev-constraint-dynamic="2.3.0-M8" callerrev="2.3.0-M8"/>
+				<artifacts>
+					<artifact name="untyper_2.12" type="jar" ext="jar" status="no" details="" size="26096" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\untyper_2.12\jars\untyper_2.12-2.3.0-M8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/feature/untyper_2.12/2.3.0-M8/untyper_2.12-2.3.0-M8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.extractor" name="extractor_2.12">
+			<revision name="2.1.0" status="release" pubdate="20170515021011" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/Extractor.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2821" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.extractor\extractor_2.12\ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/extractor/extractor_2.12/2.1.0/extractor_2.12-2.1.0.pom"/>
+				<caller organisation="com.thoughtworks.feature" name="untyper_2.12" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.3.0-M8"/>
+				<caller organisation="com.thoughtworks.feature" name="factory_2.12" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.3.0-M8"/>
+				<artifacts>
+					<artifact name="extractor_2.12" type="jar" ext="jar" status="no" details="" size="20094" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.extractor\extractor_2.12\jars\extractor_2.12-2.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/extractor/extractor_2.12/2.1.0/extractor_2.12-2.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.feature" name="implicitapply_2.12">
+			<revision name="2.3.0-M8" status="release" pubdate="20180213052634" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/feature.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3303" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\implicitapply_2.12\ivy-2.3.0-M8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/feature/implicitapply_2.12/2.3.0-M8/implicitapply_2.12-2.3.0-M8.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="expressions_2.12" conf="compile, runtime" rev="2.3.0-M8" rev-constraint-default="2.3.0-M8" rev-constraint-dynamic="2.3.0-M8" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="2.3.0-M8" rev-constraint-default="2.3.0-M8" rev-constraint-dynamic="2.3.0-M8" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.feature" name="mixins-implicitssingleton_2.12" conf="compile, runtime" rev="2.3.0-M8" rev-constraint-default="2.3.0-M8" rev-constraint-dynamic="2.3.0-M8" callerrev="2.3.0-M8"/>
+				<artifacts>
+					<artifact name="implicitapply_2.12" type="jar" ext="jar" status="no" details="" size="15626" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\implicitapply_2.12\jars\implicitapply_2.12-2.3.0-M8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/feature/implicitapply_2.12/2.3.0-M8/implicitapply_2.12-2.3.0-M8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mpilquist" name="simulacrum_2.12">
+			<revision name="0.11.0" status="release" pubdate="20170604094904" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mpilquist/simulacrum" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Three-clause BSD-style" url="https://github.com/mpilquist/simulacrum/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3176" time="0" location="C:\Users\khardee\.ivy2\cache\com.github.mpilquist\simulacrum_2.12\ivy-0.11.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.11.0/simulacrum_2.12-0.11.0.pom"/>
+				<caller organisation="com.thoughtworks.feature" name="implicitapply_2.12" conf="compile, runtime" rev="0.11.0" rev-constraint-default="0.11.0" rev-constraint-dynamic="0.11.0" callerrev="2.3.0-M8"/>
+				<artifacts>
+					<artifact name="simulacrum_2.12" type="jar" ext="jar" status="no" details="" size="84831" time="0" location="C:\Users\khardee\.ivy2\cache\com.github.mpilquist\simulacrum_2.12\jars\simulacrum_2.12-0.11.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.11.0/simulacrum_2.12-0.11.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="20161102034258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2999" time="0" location="C:\Users\khardee\.ivy2\cache\org.typelevel\macro-compat_2.12\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<caller organisation="com.thoughtworks.sde" name="core_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="3.3.1"/>
+				<caller organisation="com.github.mpilquist" name="simulacrum_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.11.0"/>
+				<caller organisation="com.chuusai" name="shapeless_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.3"/>
+				<caller organisation="com.thoughtworks.sde" name="comprehension-monad_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="jar" ext="jar" status="no" details="" size="3180" time="0" location="C:\Users\khardee\.ivy2\cache\org.typelevel\macro-compat_2.12\jars\macro-compat_2.12-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="scala-library">
+			<revision name="2.12.4-bin-typelevel-4" status="release" pubdate="20171031062130" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4-bin-typelevel-4/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2732" time="0" location="C:\Users\khardee\.ivy2\cache\org.typelevel\scala-library\ivy-2.12.4-bin-typelevel-4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/scala-library/2.12.4-bin-typelevel-4/scala-library-2.12.4-bin-typelevel-4.pom"/>
+				<caller organisation="com.thoughtworks.feature" name="implicitapply_2.12" conf="compile, runtime" rev="2.12.4-bin-typelevel-4" rev-constraint-default="2.12.4-bin-typelevel-4" rev-constraint-dynamic="2.12.4-bin-typelevel-4" callerrev="2.3.0-M8"/>
+				<caller organisation="com.thoughtworks.feature" name="the_2.12" conf="compile, runtime" rev="2.12.4-bin-typelevel-4" rev-constraint-default="2.12.4-bin-typelevel-4" rev-constraint-dynamic="2.12.4-bin-typelevel-4" callerrev="2.3.0-M8"/>
+				<caller organisation="com.thoughtworks.feature" name="untyper_2.12" conf="compile, runtime" rev="2.12.4-bin-typelevel-4" rev-constraint-default="2.12.4-bin-typelevel-4" rev-constraint-dynamic="2.12.4-bin-typelevel-4" callerrev="2.3.0-M8"/>
+				<caller organisation="com.thoughtworks.feature" name="partialapply_2.12" conf="compile, runtime" rev="2.12.4-bin-typelevel-4" rev-constraint-default="2.12.4-bin-typelevel-4" rev-constraint-dynamic="2.12.4-bin-typelevel-4" callerrev="2.3.0-M8"/>
+				<caller organisation="com.thoughtworks.feature" name="mixins-implicitssingleton_2.12" conf="compile, runtime" rev="2.12.4-bin-typelevel-4" rev-constraint-default="2.12.4-bin-typelevel-4" rev-constraint-dynamic="2.12.4-bin-typelevel-4" callerrev="2.3.0-M8"/>
+				<caller organisation="com.thoughtworks.feature" name="factory_2.12" conf="compile, runtime" rev="2.12.4-bin-typelevel-4" rev-constraint-default="2.12.4-bin-typelevel-4" rev-constraint-dynamic="2.12.4-bin-typelevel-4" callerrev="2.3.0-M8"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5177178" time="0" location="C:\Users\khardee\.ivy2\cache\org.typelevel\scala-library\jars\scala-library-2.12.4-bin-typelevel-4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/scala-library/2.12.4-bin-typelevel-4/scala-library-2.12.4-bin-typelevel-4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.compute" name="ndimensionalaffinetransform_2.12">
+			<revision name="0.4.3" status="release" pubdate="20180525003341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ThoughtWorksInc/Compute.scala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2871" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\ndimensionalaffinetransform_2.12\ivy-0.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/compute/ndimensionalaffinetransform_2.12/0.4.3/ndimensionalaffinetransform_2.12-0.4.3.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="expressions_2.12" conf="compile, runtime" rev="0.4.3" rev-constraint-default="0.4.3" rev-constraint-dynamic="0.4.3" callerrev="0.4.3"/>
+				<artifacts>
+					<artifact name="ndimensionalaffinetransform_2.12" type="jar" ext="jar" status="no" details="" size="4222" time="0" location="C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\ndimensionalaffinetransform_2.12\jars\ndimensionalaffinetransform_2.12-0.4.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/compute/ndimensionalaffinetransform_2.12/0.4.3/ndimensionalaffinetransform_2.12-0.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427034006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2501" time="0" location="C:\Users\khardee\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="com.thoughtworks.compute" name="tensors_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.raii" name="shared_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.0.0-M11"/>
+				<caller organisation="com.thoughtworks.compute" name="gpu_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.compute" name="ndimensionalaffinetransform_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.extractor" name="extractor_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.1.0"/>
+				<caller organisation="com.thoughtworks.raii" name="asynchronouspool_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.0.0-M11"/>
+				<caller organisation="com.thoughtworks.tryt" name="covariant_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.0.3"/>
+				<caller organisation="com.thoughtworks.future" name="future_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.0.0-M2"/>
+				<caller organisation="com.thoughtworks.compute" name="opencl_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.raii" name="covariant_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.0.0-M11"/>
+				<caller organisation="com.thoughtworks.compute" name="trees_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.compute" name="cpu_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.compute" name="memory_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.4.3"/>
+				<caller organisation="com.dongxiguo" name="fastring_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.3.1"/>
+				<caller organisation="com.thoughtworks.continuation" name="continuation_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.0.0-M2"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="7.2.7"/>
+				<caller organisation="com.thoughtworks.sde" name="core_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.3.1"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.8.0"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1.4"/>
+				<caller organisation="com.thoughtworks.each" name="each_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.3.1"/>
+				<caller organisation="com.thoughtworks.compute" name="openclkernelbuilder_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.4.3"/>
+				<caller organisation="com.thoughtworks.compute" name="expressions_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.4.3"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.12.6"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="7.2.14"/>
+				<caller organisation="com.github.mpilquist" name="simulacrum_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.11.0"/>
+				<caller organisation="com.thoughtworks.raii" name="asynchronous_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.0.0-M11"/>
+				<caller organisation="com.chuusai" name="shapeless_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.3.3"/>
+				<caller organisation="default" name="test-build-compute_2.12" conf="compile" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="com.github.ghik" name="silencer-lib_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.6"/>
+				<caller organisation="org.typelevel" name="macro-compat_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.1.1"/>
+				<caller organisation="com.thoughtworks.sde" name="comprehension-monad_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5267302" time="0" location="C:\Users\khardee\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

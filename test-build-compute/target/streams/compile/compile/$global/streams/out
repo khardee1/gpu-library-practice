@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\test-build\src\main\scala\sbttest\TensorPractice.scala:33:40: identifier expected but integer literal found.[0m
+[0m[[0m[31merror[0m] [0m[0m  val my1dArr: Tensor = Tensor(Seq(arr[1]))[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\test-build\src\main\scala\sbttest\TensorPractice.scala:35:1: ']' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

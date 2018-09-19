@@ -1,0 +1,21 @@
+<classpath>
+  <classpathentry kind="src" path="src\main\scala"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry sourcepath="C:\Users\khardee\.ivy2\cache\com.aparapi\aparapi\srcs\aparapi-1.10.0-sources.jar" kind="lib" path="C:\Users\khardee\.ivy2\cache\com.aparapi\aparapi\jars\aparapi-1.10.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.aparapi\aparapi\docs\aparapi-1.10.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\khardee\.ivy2\cache\com.aparapi\aparapi-jni\srcs\aparapi-jni-1.4.1-sources.jar" kind="lib" path="C:\Users\khardee\.ivy2\cache\com.aparapi\aparapi-jni\jars\aparapi-jni-1.4.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.aparapi\aparapi-jni\docs\aparapi-jni-1.4.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\khardee\.ivy2\cache\org.apache.bcel\bcel\srcs\bcel-6.2-sources.jar" kind="lib" path="C:\Users\khardee\.ivy2\cache\org.apache.bcel\bcel\jars\bcel-6.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\org.apache.bcel\bcel\docs\bcel-6.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>

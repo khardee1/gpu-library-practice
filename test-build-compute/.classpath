@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/scala"/>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/cpu_2.12/jars/cpu_2.12-0.4.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/cpu_2.12/srcs/cpu_2.12-0.4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\cpu_2.12\docs\cpu_2.12-0.4.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/tensors_2.12/jars/tensors_2.12-0.4.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/tensors_2.12/srcs/tensors_2.12-0.4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\tensors_2.12\docs\tensors_2.12-0.4.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/openclkernelbuilder_2.12/jars/openclkernelbuilder_2.12-0.4.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/openclkernelbuilder_2.12/srcs/openclkernelbuilder_2.12-0.4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\openclkernelbuilder_2.12\docs\openclkernelbuilder_2.12-0.4.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/expressions_2.12/jars/expressions_2.12-0.4.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/expressions_2.12/srcs/expressions_2.12-0.4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\expressions_2.12\docs\expressions_2.12-0.4.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/ndimensionalaffinetransform_2.12/jars/ndimensionalaffinetransform_2.12-0.4.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/ndimensionalaffinetransform_2.12/srcs/ndimensionalaffinetransform_2.12-0.4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\ndimensionalaffinetransform_2.12\docs\ndimensionalaffinetransform_2.12-0.4.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/implicitapply_2.12/jars/implicitapply_2.12-2.3.0-M8.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/implicitapply_2.12/srcs/implicitapply_2.12-2.3.0-M8-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\implicitapply_2.12\docs\implicitapply_2.12-2.3.0-M8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/jars/simulacrum_2.12-0.11.0.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/srcs/simulacrum_2.12-0.11.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.github.mpilquist\simulacrum_2.12\docs\simulacrum_2.12-0.11.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar" sourcepath="C:/Users/khardee/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\org.typelevel\macro-compat_2.12\docs\macro-compat_2.12-1.1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/factory_2.12/jars/factory_2.12-2.3.0-M8.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/factory_2.12/srcs/factory_2.12-2.3.0-M8-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\factory_2.12\docs\factory_2.12-2.3.0-M8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/untyper_2.12/jars/untyper_2.12-2.3.0-M8.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/untyper_2.12/srcs/untyper_2.12-2.3.0-M8-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\untyper_2.12\docs\untyper_2.12-2.3.0-M8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.extractor/extractor_2.12/jars/extractor_2.12-2.1.0.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.extractor/extractor_2.12/srcs/extractor_2.12-2.1.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.extractor\extractor_2.12\docs\extractor_2.12-2.1.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/the_2.12/jars/the_2.12-2.3.0-M8.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/the_2.12/srcs/the_2.12-2.3.0-M8-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\the_2.12\docs\the_2.12-2.3.0-M8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.github.ghik/silencer-lib_2.12/jars/silencer-lib_2.12-0.6.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.github.ghik/silencer-lib_2.12/srcs/silencer-lib_2.12-0.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.github.ghik\silencer-lib_2.12\docs\silencer-lib_2.12-0.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.lihaoyi/sourcecode_2.12/bundles/sourcecode_2.12-0.1.4.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.lihaoyi/sourcecode_2.12/srcs/sourcecode_2.12-0.1.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.lihaoyi\sourcecode_2.12\docs\sourcecode_2.12-0.1.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.dongxiguo/fastring_2.12/jars/fastring_2.12-0.3.1.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.dongxiguo/fastring_2.12/srcs/fastring_2.12-0.3.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.dongxiguo\fastring_2.12\docs\fastring_2.12-0.3.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/opencl_2.12/jars/opencl_2.12-0.4.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/opencl_2.12/srcs/opencl_2.12-0.4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\opencl_2.12\docs\opencl_2.12-0.4.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/memory_2.12/jars/memory_2.12-0.4.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/memory_2.12/srcs/memory_2.12-0.4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\memory_2.12\docs\memory_2.12-0.4.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/org.lwjgl/lwjgl/jars/lwjgl-3.2.0.jar" sourcepath="C:/Users/khardee/.ivy2/cache/org.lwjgl/lwjgl/srcs/lwjgl-3.2.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\org.lwjgl\lwjgl\docs\lwjgl-3.2.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/org.lwjgl/lwjgl/jars/lwjgl-3.2.0-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/org.lwjgl/lwjgl-opencl/jars/lwjgl-opencl-3.1.6.jar" sourcepath="C:/Users/khardee/.ivy2/cache/org.lwjgl/lwjgl-opencl/srcs/lwjgl-opencl-3.1.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\org.lwjgl\lwjgl-opencl\docs\lwjgl-opencl-3.1.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.raii/asynchronous_2.12/jars/asynchronous_2.12-3.0.0-M11.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.raii/asynchronous_2.12/srcs/asynchronous_2.12-3.0.0-M11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\asynchronous_2.12\docs\asynchronous_2.12-3.0.0-M11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.raii/shared_2.12/jars/shared_2.12-3.0.0-M11.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.raii/shared_2.12/srcs/shared_2.12-3.0.0-M11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\shared_2.12\docs\shared_2.12-3.0.0-M11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.raii/covariant_2.12/jars/covariant_2.12-3.0.0-M11.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.raii/covariant_2.12/srcs/covariant_2.12-3.0.0-M11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\covariant_2.12\docs\covariant_2.12-3.0.0-M11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/org.scalaz/scalaz-core_2.12/bundles/scalaz-core_2.12-7.2.14.jar" sourcepath="C:/Users/khardee/.ivy2/cache/org.scalaz/scalaz-core_2.12/srcs/scalaz-core_2.12-7.2.14-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\org.scalaz\scalaz-core_2.12\docs\scalaz-core_2.12-7.2.14-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.continuation/continuation_2.12/jars/continuation_2.12-2.0.0-M2.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.continuation/continuation_2.12/srcs/continuation_2.12-2.0.0-M2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.continuation\continuation_2.12\docs\continuation_2.12-2.0.0-M2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.tryt/covariant_2.12/jars/covariant_2.12-2.0.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.tryt/covariant_2.12/srcs/covariant_2.12-2.0.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.tryt\covariant_2.12\docs\covariant_2.12-2.0.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.future/future_2.12/jars/future_2.12-2.0.0-M2.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.future/future_2.12/srcs/future_2.12-2.0.0-M2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.future\future_2.12\docs\future_2.12-2.0.0-M2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.raii/asynchronouspool_2.12/jars/asynchronouspool_2.12-3.0.0-M11.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.raii/asynchronouspool_2.12/srcs/asynchronouspool_2.12-3.0.0-M11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.raii\asynchronouspool_2.12\docs\asynchronouspool_2.12-3.0.0-M11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/partialapply_2.12/jars/partialapply_2.12-2.3.0-M8.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/partialapply_2.12/srcs/partialapply_2.12-2.3.0-M8-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\partialapply_2.12\docs\partialapply_2.12-2.3.0-M8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/mixins-implicitssingleton_2.12/jars/mixins-implicitssingleton_2.12-2.3.0-M8.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.feature/mixins-implicitssingleton_2.12/srcs/mixins-implicitssingleton_2.12-2.3.0-M8-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.feature\mixins-implicitssingleton_2.12\docs\mixins-implicitssingleton_2.12-2.3.0-M8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.chuusai/shapeless_2.12/srcs/shapeless_2.12-2.3.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.chuusai\shapeless_2.12\docs\shapeless_2.12-2.3.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/bundles/scala-logging_2.12-3.8.0.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.8.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.typesafe.scala-logging\scala-logging_2.12\docs\scala-logging_2.12-3.8.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar" sourcepath="C:/Users/khardee/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\org.slf4j\slf4j-api\docs\slf4j-api-1.7.25-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.each/each_2.12/jars/each_2.12-3.3.1.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.each/each_2.12/srcs/each_2.12-3.3.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.each\each_2.12\docs\each_2.12-3.3.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.sde/core_2.12/jars/core_2.12-3.3.1.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.sde/core_2.12/srcs/core_2.12-3.3.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.sde\core_2.12\docs\core_2.12-3.3.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/org.scalaz/scalaz-effect_2.12/bundles/scalaz-effect_2.12-7.2.7.jar" sourcepath="C:/Users/khardee/.ivy2/cache/org.scalaz/scalaz-effect_2.12/srcs/scalaz-effect_2.12-7.2.7-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\org.scalaz\scalaz-effect_2.12\docs\scalaz-effect_2.12-7.2.7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.sde/comprehension-monad_2.12/jars/comprehension-monad_2.12-3.3.1.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.sde/comprehension-monad_2.12/srcs/comprehension-monad_2.12-3.3.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.sde\comprehension-monad_2.12\docs\comprehension-monad_2.12-3.3.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/trees_2.12/jars/trees_2.12-0.4.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/trees_2.12/srcs/trees_2.12-0.4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\trees_2.12\docs\trees_2.12-0.4.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.google.guava/guava/bundles/guava-23.6-jre.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.google.guava/guava/srcs/guava-23.6-jre-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.google.guava\guava\docs\guava-23.6-jre-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/org.checkerframework/checker-compat-qual/jars/checker-compat-qual-2.0.0.jar" sourcepath="C:/Users/khardee/.ivy2/cache/org.checkerframework/checker-compat-qual/srcs/checker-compat-qual-2.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\org.checkerframework\checker-compat-qual\docs\checker-compat-qual-2.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.google.errorprone/error_prone_annotations/jars/error_prone_annotations-2.1.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.google.errorprone/error_prone_annotations/srcs/error_prone_annotations-2.1.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.google.errorprone\error_prone_annotations\docs\error_prone_annotations-2.1.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.google.j2objc/j2objc-annotations/jars/j2objc-annotations-1.1.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.google.j2objc/j2objc-annotations/srcs/j2objc-annotations-1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.google.j2objc\j2objc-annotations\docs\j2objc-annotations-1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/org.codehaus.mojo/animal-sniffer-annotations/jars/animal-sniffer-annotations-1.14.jar" sourcepath="C:/Users/khardee/.ivy2/cache/org.codehaus.mojo/animal-sniffer-annotations/srcs/animal-sniffer-annotations-1.14-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\org.codehaus.mojo\animal-sniffer-annotations\docs\animal-sniffer-annotations-1.14-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/gpu_2.12/jars/gpu_2.12-0.4.3.jar" sourcepath="C:/Users/khardee/.ivy2/cache/com.thoughtworks.compute/gpu_2.12/srcs/gpu_2.12-0.4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\khardee\.ivy2\cache\com.thoughtworks.compute\gpu_2.12\docs\gpu_2.12-0.4.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

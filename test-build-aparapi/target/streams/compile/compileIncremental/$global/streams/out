@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating C:\Program Files\Java\jre1.8.0_161\lib\rt.jar: class java.lang.Object now provided by C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(D:\workspace\test-build\src\main\scala\sbttest\Hello.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(D:\workspace\test-build-aparapi\src\main\scala\sbttest\Hello.scala, D:\workspace\test-build-aparapi\src\main\scala\sbttest\TensorPractice.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(D:\workspace\test-build\target\scala-2.12\classes\sbttest\Hello$.class, D:\workspace\test-build\target\scala-2.12\classes\sbttest\Hello$delayedInit$body.class, D:\workspace\test-build\target\scala-2.12\classes\sbttest\Hello.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(C:\Program Files\Java\jre1.8.0_161\lib\rt.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(sbttest.Hello)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(D:\workspace\test-build\src\main\scala\sbttest\Hello.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(D:\workspace\test-build\src\main\scala\sbttest\Hello.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(sbttest.Hello)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(D:\workspace\test-build-aparapi\src\main\scala\sbttest\Hello.scala, D:\workspace\test-build-aparapi\src\main\scala\sbttest\TensorPractice.scala, D:\workspace\test-build\src\main\scala\sbttest\Hello.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to D:\workspace\test-build-aparapi\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 7a35353e for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes;C:\Users\khardee\.sbt\boot\scala-2.12.6\lib\scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	D:\workspace\test-build-aparapi\target\scala-2.12\classes;C:\Users\khardee\.ivy2\cache\com.aparapi\aparapi\jars\aparapi-1.10.0.jar;C:\Users\khardee\.ivy2\cache\com.aparapi\aparapi-jni\jars\aparapi-jni-1.4.1.jar;C:\Users\khardee\.ivy2\cache\org.apache.bcel\bcel\jars\bcel-6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
