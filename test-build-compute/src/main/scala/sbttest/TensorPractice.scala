@@ -37,7 +37,7 @@ object TensorPractice extends App {
   //arr.take(5) foreach println
   //def arr1: Array[Array[Int]] = Array(arr)
   val seq:Seq[Body] = Seq(new Body(1,1,1,1,1,1,1))
-  var acceleration = Tensor.random(Array(32, 32, 32)).doCache.acquire.blockingAwait
+  var acceleration = Tensor.random(Array(32, 32, 32)).doCache.acquire.blockingAwait //wtf is a tensor and why does it hate me
   var Resource(x, y) = Tensor.random(Array(32, 32)).doCache.acquire.blockingAwait
   val randomval = acceleration.value
   val arr = randomval.flatArray

@@ -11,7 +11,7 @@ object NBodyUniverse {
         val dz = b1.z - b1.z
         val dist = math.sqrt(dx*dx + dy*dy + dz*dz)
         val mag1 = b2.mass/(dist*dist*dist)
-        acc(i)._x = (acc(i).x - mag1*dx).toFloat
+        acc(i)._x = (acc(i).x - mag1*dx).toFloat 
         acc(i)._y = (acc(i).y - mag1*dy).toFloat
         acc(i)._z = (acc(i).z - mag1*dz).toFloat
         val mag2 = (b2.mass/(dist*dist*dist)).toFloat
