@@ -8,5 +8,5 @@ object BouncingBallSim extends App {
   val z = Tensor.fill(100f, Array(10))
   val v = Tensor.fill(10f, Array(10))
   val a = Tensor.fill(1f, Array(10))
-  BouncingBallWorld.runSim(x, y, z, v, a, 20f)
+  BouncingBallWorld.runSim(x, y, z, v, a, 10, 20f)
 }

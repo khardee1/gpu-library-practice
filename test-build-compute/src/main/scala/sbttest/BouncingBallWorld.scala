@@ -20,6 +20,6 @@ object BouncingBallWorld {
     
     val vFinal = vPrime * boolZ
     
-    if(iter >= 0) runSim(x, y, zPrime, vFinal, aPrime, iter-1, dt) else (x, y, zPrime, vFinal, aPrime, iter, dt)
+    if(iter >= 0) runSim(x, y, zPrime, vFinal, aPrime, iter-1, dt) else (x, y, zPrime, vFinal, aPrime, dt)
   }
 }
