@@ -29,9 +29,10 @@ object SelfGravitatingWorld {
       val dSquaredSplit = dSquared.split(1)
       val dist = Tensor.sqrt(dSquaredSplit(0) + dSquaredSplit(1) + dSquaredSplit(2))
       val overlap = Tensor.min(dist - centerToCenter, Tensor(0f))
-      val restoringForce = (p*Tensor(0.0f)+Tensor(-10f)) * overlap
+      val restoringForce = (p*Tensor(0.0f)+Tensor(-100f)) * overlap
       val mag = -mPrime / (dist * dist * dist)
-      val da = mag * d + restoringForce
+      val dNorm = d / dist
+      val da = mag * d + restoringForce * dNorm
       mutableA = mutableA + da
     }
     
